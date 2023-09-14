@@ -1,0 +1,25 @@
+.custom-light,.custom-light:focus{
+    background-color: #dbdbdb;
+}
+.custom-dark,.custom-dark:focus{
+    background-color: black;
+    color:white;
+}
+.custom-danger,.custom-danger:focus{
+    background-color: #ff7e7e;
+}
+.custom-primary,.custom-primary:focus{
+    background-color: #c1c4ff;
+}
+.custom-success,.custom-success:focus{
+    background-color: #7dffb0;
+}
+.custom-warning,.custom-warning:focus{
+    background-color: #ff8a00;
+}
+.btn-dark{
+    background-color: black;
+}
+.accordion-after-inverter::after{
+    filter:invert(1);
+}
