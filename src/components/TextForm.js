@@ -60,19 +60,19 @@ export default function TextForm(props) {
                     <label htmlFor="textArea" className="form-label"><h2>{props.heading}</h2></label>
                     <textarea className={`form-control custom-${props.mode}`} id="textArea" rows="12" placeholder="Type here..." value={text} onChange={handleChange}></textarea>
                 </div>
-                <button className="btn btn-dark mx-1" onClick={convertToUpperCase} disabled={!text.length}>
+                <button className="btn btn-dark mx-1 my-1" onClick={convertToUpperCase} disabled={!text.length}>
                     {props.btn1}
                 </button>
-                <button className="btn btn-dark mx-1" onClick={convertToLowerCase} disabled={!text.length}>
+                <button className="btn btn-dark mx-1 my-1" onClick={convertToLowerCase} disabled={!text.length}>
                     {props.btn2}
                 </button>
-                <button className="btn btn-dark mx-1" onClick={copyText} disabled={!text.length}>
+                <button className="btn btn-dark mx-1 my-1" onClick={copyText} disabled={!text.length}>
                     {props.btn3}
                 </button>
-                <button className="btn btn-dark mx-1" onClick={clearText} disabled={!text.length}>
+                <button className="btn btn-dark mx-1 my-1" onClick={clearText} disabled={!text.length}>
                     {props.btn4}
                 </button>
-                <button className="btn btn-dark mx-1" onClick={convertToBinary} disabled={!text.length}>
+                <button className="btn btn-dark mx-1 my-1" onClick={convertToBinary} disabled={!text.length}>
                     {props.btn5}
                 </button>
                 <h3 className="my-4 mb-3">Your text summary :</h3>
